@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id ="@+id/monLayout3"
+    tools:context=".ChoixHabitudesActivity">
+
+
+    <TextView
+        android:id="@+id/choixHabitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vos habitudes aujourd'hui"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="89dp"
+        android:layout_height="62dp"
+        android:onClick="enregistrer"
+        android:text="OK"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:backgroundTint="#009688" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="116dp"
+        android:layout_height="58dp"
+        android:clickable="true"
+        app:backgroundTint="#009688"
+        app:rippleColor="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</LinearLayout>

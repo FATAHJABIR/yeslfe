@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreationNouvelleHabitude">
+
+    <TextView
+        android:id="@+id/edit_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Êtes-vous sûr de vouloir supprimer l'habitude ?"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+    <Button
+        android:id="@+id/edit_boutonSuppr"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:text="Oui, supprimer"
+        android:textSize="30sp"
+        app:backgroundTint="#009688"
+        tools:layout_editor_absoluteX="463dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+
+
+
+</LinearLayout>

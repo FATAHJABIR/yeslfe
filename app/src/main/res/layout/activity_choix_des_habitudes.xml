@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreationNouvelleHabitude">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous allez créer une nouvelle habitude."
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+    <EditText
+        android:id="@+id/nomNouvelleHabitude"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nom de votre nouvelle habitude"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+
+    <EditText
+        android:id="@+id/descriptionNouvelleHabitude"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Description de votre nouvelle habitude"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Switch
+        android:id="@+id/switchComptable"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Habitude non comptable"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/objectif"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Objectif"
+        android:inputType="number"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/boutonOKnouvellehabitude"
+        android:layout_width="97dp"
+        android:layout_height="72dp"
+        android:onClick="enregistrementnouvellehabitude"
+        android:text="OK"
+        android:textSize="30sp"
+        app:backgroundTint="#009688"
+        tools:layout_editor_absoluteX="463dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+
+
+
+</LinearLayout>
